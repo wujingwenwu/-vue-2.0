@@ -1,0 +1,247 @@
+.d-f{
+    display: flex;
+    /* 弹性盒模型 */
+}
+.f-s-12{
+    font-size: 12px;
+    /* 字体大小为12px */
+}
+.f-s-14{
+    font-size: 14px;
+    /* 字体大小为14px */
+}
+.f-s-16{
+    font-size: 16px;
+    /* 字体大小为16px */
+}
+.f-w{
+    font-weight: 700;
+    /*字体 加粗 */
+}
+.f-c-ho{
+    color: #f00;
+    /* 红色 */
+}
+.f-c-hu{
+    color: #ccc;
+    /* 灰色 */
+}
+.f-c-b{
+    color: #ffffff;
+    /* 白色 */
+}
+.f-c-he{
+    color: #000;
+    /* 黑色 */
+}
+.t-a-l{
+    text-align: left;
+    /* 文本左对齐 */
+}
+.t-a-c{
+    text-align: center;
+    /* 文本居中 */
+}
+.t-a-r{
+    text-align: right;
+    /* 文本右对齐 */
+}
+.t-d-u{
+    text-decoration: underline;
+    /* 装饰在文本底部 */
+}
+.t-d-o{
+    text-decoration: overline;
+    /* 装饰在顶部 */
+}
+.t-d-l-t{
+    text-decoration: line-through;
+    /* 装饰在文本中间 */
+}
+.d-i{
+    display: inline;
+    /* 块级元素装换成行内元素 */
+}
+.d-i-b{
+    display: inline-block;
+    /* 块级元素装换成行内块元素 */
+}
+.d-b{
+    display: block;
+    /* 行内和行内块元素装换成块级元素 */
+}
+.d-n{
+    display: none;
+    /* 隐藏元素 */
+}
+.p-r{
+    position: relative;
+    /* 相对定位 */
+}
+.p-a{
+    position: absolute;
+    /* 绝对定位 */
+}
+.p-f{
+    position: fixed;
+    /* 固定定位 */
+}
+.b-r-50{
+    border-radius: 50%;
+    /* 圆角为50% */
+}
+.j-c-s-a{
+    justify-content: space-around;
+   /* 两边的子元素距离父元素的两边有间距，然后中间距离自动等分 */
+}
+.j-c-s-b{
+    justify-content: space-between;
+    /* 两边的子元素距离父元素没有间距，然后中间距离自动等分 */
+    
+}
+.j-c-c{
+    justify-content: center;
+     /* 所有的子元素相当于父元素水平居中 */
+}
+.a-i-c{
+    align-items: center;
+    /* （竖轴排列方式）子元素相当于父元素垂直方向居中 */
+}
+.f-d-c{
+    flex-direction: column;
+    /* 弹性盒模型的竖项排列方式 */
+}
+*{
+  margin: 0; 
+  padding: 0; 
+  /* 清除游览器的痕迹 */
+}
+.conter{
+    display: flex;
+    justify-content: center;
+    /* 弹性盒模型，所有的文本在页面的中间 */
+}
+.warp{
+   width: 1280px;
+   /* 宽度为1280px，基本上不会超过1400px */
+}
+.o-h{
+    overflow: hidden;
+    /* 超出部分隐藏 */
+}
+.w-o-t{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 超出部分隐藏（只限字体） */
+}
+.d-n{
+    display: none;
+    /* 不占位置 */
+}
+.v-h{
+    visibility: hidden;
+    /* 占位置 */
+}
+.f-w-w{
+    flex-wrap: wrap;
+    /* 换行 */
+}
+.w-s-n{
+    white-space: nowrap;
+    /* 内容不换行 */
+}
+.m-t-20{
+    margin-top: 20px;
+    /* 向下20 */
+}
+.m-l-20{
+    margin-left: 20px;
+
+}
+.m-t-10{
+    margin-top: 10px;
+}
+.m-l-10{
+    margin-left: 10px;
+}
+.b-c-hong{
+    background-color: red;
+}
+.b-c-hei{
+    background-color: black;
+}
+.b-c-bai{
+    background-color: #ffffff;
+}
+.b-c-hui{
+    background-color: #ccc;
+}
+.b-1-s-hong{
+    border: 1px solid red;
+}
+.b-1-d-hong{
+    border: 1px dashed red;
+}
+.b-1-s-bai{
+    border: 1px solid #ffffff;
+}
+.b-1-d-bai{
+    border: 1px dashed #ffffff;
+}
+.b-1-s-hei{
+    border: 1px solid black;
+}
+.b-1-d-hei{
+    border: 1px dashed black;
+}
+.b-1-s-hui{
+    border: 1px solid #ccc;
+}
+.b-1-d-hui{
+    border: 1px dashed #ccc;
+}
+.b-l-n{
+    border-left: none;
+    /* 左边框隐藏 */
+}
+.b-t-n{
+    border-top: none;
+}
+.b-r-n{
+    border-right: none;
+}
+.b-b-n{
+    border-bottom: none;
+}
+.m-t-15{
+    margin-top: 15px;
+}
+.m-t-30{
+    margin-top: 30px;
+}
+.m-t-5{
+    margin-top: 5px;
+}
+.b-none{
+    border: none;
+}
+.f-s-18{
+    font-size: 18px;
+}
+.m-l--10{
+    margin-left: -10px;
+}
+.m-l-40{                                                        
+    margin-left: 40px;
+}
+.o-n{
+    outline: none;
+    /* 隐藏边框 */
+}
+
+
+
+
+
+
